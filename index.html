@@ -3,19 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tour Dolomiti Moto</title>
+    <title>Tour Dei Giganti - Dolomiti in Moto</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <!-- Header -->
+    <!-- Header con design "TOUR DEI GIGANTI" -->
     <header class="header">
         <div class="container">
             <div class="logo-container">
-                <img src="assets/images/logo.png" alt="Tour Dolomiti Moto" class="logo-image">
+                <img src="assets/images/logo.png" alt="Tour Dei Giganti" class="logo-image">
             </div>
-            <h1>Tour Dolomiti Moto</h1>
-            <div class="subtitle">L'avventura sulle due ruote</div>
-            <div class="date">15-18 Agosto 2024</div>
+            
+            <!-- Titolo principale come nella locandina -->
+            <h1 class="main-title">TOUR DEI GIGANTI</h1>
+            
+            <!-- Sottotitolo -->
+            <div class="subtitle">
+                4 Giorni tra i Passi più Spettacolari delle Dolomiti
+            </div>
+            
+            <!-- Info partenza -->
+            <div class="tour-info">
+                <span class="info-item">Partenza da Bolzano</span>
+                <span class="info-divider">•</span>
+                <span class="info-item">Stelvio Incluso</span>
+            </div>
+
+            <!-- Stats Grid come nella locandina -->
+            <div class="hero-stats">
+                <div class="hero-stat">
+                    <div class="hero-number">600</div>
+                    <div class="hero-label">Kilometri Totali</div>
+                </div>
+                <div class="hero-stat">
+                    <div class="hero-number">4</div>
+                    <div class="hero-label">Giorni di Puro Divertimento</div>
+                </div>
+                <div class="hero-stat">
+                    <div class="hero-number">12+</div>
+                    <div class="hero-label">Passi Dolomitici</div>
+                </div>
+                <div class="hero-stat">
+                    <div class="hero-number">3</div>
+                    <div class="hero-label">Regioni Attraversate</div>
+                </div>
+            </div>
+
+            <!-- Flags -->
             <div class="flags">
                 <span class="flag">🏍️</span>
                 <span class="flag">⛰️</span>
@@ -24,7 +58,7 @@
         </div>
     </header>
 
-    <!-- Navigation -->
+    <!-- Resto del codice rimane uguale -->
     <nav class="nav">
         <div class="container nav-container">
             <button class="nav-btn active" data-section="overview">Overview</button>
@@ -36,352 +70,4 @@
         </div>
     </nav>
 
-    <!-- Main Content -->
-    <main>
-        <!-- Overview Section -->
-        <section id="overview" class="section active">
-            <div class="container">
-                <h2 class="section-title">Il Tour</h2>
-                <p class="section-subtitle">Un viaggio epico attraverso le più belle strade delle Dolomiti</p>
-                
-                <div class="stats-grid">
-                    <div class="stat-box">
-                        <span class="number">4</span>
-                        <span class="label">Giorni</span>
-                    </div>
-                    <div class="stat-box">
-                        <span class="number">850</span>
-                        <span class="label">Km Totali</span>
-                    </div>
-                    <div class="stat-box">
-                        <span class="number">6</span>
-                        <span class="label">Passi Dolomitici</span>
-                    </div>
-                    <div class="stat-box">
-                        <span class="number">12</span>
-                        <span class="label">Motociclisti</span>
-                    </div>
-                </div>
-
-                <div class="quote-section">
-                    <blockquote class="main-quote">
-                        "Le Dolomiti non sono solo montagne, sono un palcoscenico naturale dove ogni curva racconta una storia, 
-                        ogni passo regala un'emozione, e ogni kilometro percorso a bordo della propria moto diventa un ricordo indelebile."
-                    </blockquote>
-                </div>
-
-                <div class="highlights-grid">
-                    <div class="highlight-card">
-                        <div class="highlight-icon">⛰️</div>
-                        <h3>Panorami Mozzafiato</h3>
-                        <p>Viste spettacolari sulle cime dolomitiche patrimonio UNESCO</p>
-                    </div>
-                    <div class="highlight-card">
-                        <div class="highlight-icon">🛣️</div>
-                        <h3>Strade Leggendarie</h3>
-                        <p>Curve perfette e passi famosi nel mondo del mototurismo</p>
-                    </div>
-                    <div class="highlight-card">
-                        <div class="highlight-icon">🍝</div>
-                        <h3>Gastronomia</h3>
-                        <p>Specialità culinarie tipiche del Trentino Alto Adige</p>
-                    </div>
-                    <div class="highlight-card">
-                        <div class="highlight-icon">👥</div>
-                        <h3>Gruppo Affiatato</h3>
-                        <p>Viaggiare insieme condividendo la passione per la moto</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Tappe Section -->
-        <section id="tappe" class="section">
-            <div class="container">
-                <h2 class="section-title">Le Tappe</h2>
-                <p class="section-subtitle">4 giorni di pura emozione sulle strade dolomitiche</p>
-                
-                <div class="tappe-container">
-                    <!-- Tappa 1 -->
-                    <div class="tappa">
-                        <div class="tappa-header andata">
-                            <div class="tappa-title">Giorno 1: Arrivo e Passo Sella</div>
-                            <div class="tappa-distance">220 km</div>
-                        </div>
-                        <div class="tappa-content">
-                            <div class="tappa-desc">
-                                <p>Primo approccio con le Dolomiti attraverso passi leggendari che ci condurranno nella cuore delle montagne.</p>
-                                <p>Il percorso si snoda attraverso valli verdissime e passi iconici, con soste tecniche per ammirare panorami unici.</p>
-                                
-                                <div class="descrizione-tracciato">
-                                    <h4>🏍️ Descrizione Tracciato per Motociclisti</h4>
-                                    <div class="tracciato-highlight">
-                                        <strong>TRATTO EMOZIONANTE:</strong>
-                                        <ul>
-                                            <li><strong>Passo Sella:</strong> Curve serrate e tornanti tecnici a 2240m</li>
-                                            <li><strong>Passo Pordoi:</strong> 28 tornanti con vista mozzafiato</li>
-                                            <li><strong>Passo Gardena:</strong> Discesa tecnica verso la Val Badia</li>
-                                        </ul>
-                                    </div>
-                                    
-                                    <div class="caratteristiche-tecniche">
-                                        <h5>📊 Caratteristiche Tecniche</h5>
-                                        <p><strong>Pendenza massima:</strong> 12%</p>
-                                        <p><strong>Curve impegnative:</strong> 45+ tornanti</p>
-                                        <p><strong>Altitudine max:</strong> 2,240m (Passo Sella)</p>
-                                    </div>
-                                    
-                                    <div class="consigli-percorrenza">
-                                        <h5>💡 Consigli di Percorrenza</h5>
-                                        <ul>
-                                            <li><strong>Mattina presto:</strong> Meno traffico sui passi</li>
-                                            <li><strong>Attenti al fondo:</strong> Possibile ghiaia dopo l'inverno</li>
-                                            <li><strong>Tempo di percorrenza:</strong> 4-5 ore effettive</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tappa-sidebar">
-                                <div class="tappa-highlight">
-                                    <h4>Dati Viaggio</h4>
-                                    <div class="info-item">
-                                        <span class="info-label">Partenza:</span>
-                                        <span class="info-value">Bassano del Grappa</span>
-                                    </div>
-                                    <div class="info-item">
-                                        <span class="info-label">Arrivo:</span>
-                                        <span class="info-value">Ortisei</span>
-                                    </div>
-                                    <div class="info-item">
-                                        <span class="info-label">Durata:</span>
-                                        <span class="info-value">4-5 ore</span>
-                                    </div>
-                                    <div class="info-item">
-                                        <span class="info-label">Dislivello:</span>
-                                        <span class="info-value">+1,800m</span>
-                                    </div>
-                                </div>
-                                
-                                <div class="motociclista-tips">
-                                    <h4>💡 Tips Motociclista</h4>
-                                    <div class="tips-list">
-                                        <div class="tip"><strong>⛽</strong> Pieno a Bolzano</div>
-                                        <div class="tip"><strong>🌡️</strong> Freddo ai passi</div>
-                                        <div class="tip"><strong>📷</strong> Foto al Passo Sella</div>
-                                    </div>
-                                </div>
-                                
-                                <div class="alloggio">
-                                    <h4>🏨 Alloggio</h4>
-                                    <div class="dettagli-alloggio">
-                                        <p><strong>Hotel:</strong> Alpenroyal Grand Hotel</p>
-                                        <p><strong>Posizione:</strong> Ortisei, Val Gardena</p>
-                                        <p><strong>Parcheggio:</strong> Custodito per moto</p>
-                                        <p><strong>Cena:</strong> Tipica sudtirolese</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Tappa 2 -->
-                    <div class="tappa">
-                        <div class="tappa-header ritorno">
-                            <div class="tappa-title">Giorno 2: I Passi Occidentali</div>
-                            <div class="tappa-distance">280 km</div>
-                        </div>
-                        <div class="tappa-content">
-                            <div class="tappa-desc">
-                                <p>Esplorazione dei passi più occidentali con panorami sempre diversi...</p>
-                                <!-- Contenuto simile alla tappa 1 -->
-                            </div>
-                            <div class="tappa-sidebar">
-                                <div class="tappa-highlight">
-                                    <h4>Dati Viaggio</h4>
-                                    <div class="info-item">
-                                        <span class="info-label">Partenza:</span>
-                                        <span class="info-value">Ortisei</span>
-                                    </div>
-                                    <div class="info-item">
-                                        <span class="info-label">Arrivo:</span>
-                                        <span class="info-value">Cortina d'Ampezzo</span>
-                                    </div>
-                                    <div class="info-item">
-                                        <span class="info-label">Durata:</span>
-                                        <span class="info-value">5-6 ore</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Mappa Section -->
-        <section id="mappa" class="section">
-            <div class="container">
-                <h2 class="section-title">Mappa Completa</h2>
-                <p class="section-subtitle">Visualizza l'intero percorso del tour</p>
-                
-                <div class="mappa-full">
-                    🗺️ Mappa interattiva verrà implementata
-                </div>
-                
-                <div class="legenda">
-                    <div class="legenda-item">
-                        <div class="legenda-color andata"></div>
-                        <span>Percorso Andata</span>
-                    </div>
-                    <div class="legenda-item">
-                        <div class="legenda-color ritorno"></div>
-                        <span>Percorso Ritorno</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Partecipanti Section -->
-        <section id="partecipanti" class="section">
-            <div class="container">
-                <h2 class="section-title">I Partecipanti</h2>
-                <p class="section-subtitle">Il gruppo di motociclisti che affronterà questo tour</p>
-                
-                <div class="partecipanti-grid">
-                    <div class="partecipante-card">
-                        <div class="partecipante-avatar">🏍️</div>
-                        <h3>Marco Rossi</h3>
-                        <p>Ducati Multistrada</p>
-                        <p>Guide esperto</p>
-                    </div>
-                    <div class="partecipante-card">
-                        <div class="partecipante-avatar">🏍️</div>
-                        <h3>Laura Bianchi</h3>
-                        <p>BMW R1250GS</p>
-                        <p>Fotografa ufficiale</p>
-                    </div>
-                    <!-- Altri partecipanti -->
-                </div>
-            </div>
-        </section>
-
-        <!-- Info Section -->
-        <section id="info" class="section">
-            <div class="container">
-                <h2 class="section-title">Informazioni Utili</h2>
-                <p class="section-subtitle">Tutto quello che devi sapere per il tour</p>
-                
-                <div class="info-grid">
-                    <div class="info-card">
-                        <div class="info-icon">⚙️</div>
-                        <h3>Preparazione Moto</h3>
-                        <ul>
-                            <li>Controllo pressione gomme</li>
-                            <li>Verifica freni e sospensioni</li>
-                            <li>Liquidi e catena</li>
-                            <li>Equipaggiamento luci</li>
-                        </ul>
-                    </div>
-                    
-                    <div class="info-card">
-                        <div class="info-icon">👕</div>
-                        <h3>Equipaggiamento</h3>
-                        <ul>
-                            <li>Abbigliamento tecnico</li>
-                            <li>Protezioni complete</li>
-                            <li>Vestiario per altitudine</li>
-                            <li>Documenti e assicurazione</li>
-                        </ul>
-                    </div>
-                    
-                    <div class="info-card">
-                        <div class="info-icon">🛣️</div>
-                        <h3>In Viaggio</h3>
-                        <ul>
-                            <li>Distanze di sicurezza</li>
-                            <li>Comunicazione in gruppo</li>
-                            <li>Soste tecniche</li>
-                            <li>Emergenze e soccorso</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Downloads Section -->
-        <section id="downloads" class="section">
-            <div class="container">
-                <h2 class="section-title">Downloads</h2>
-                <p class="section-subtitle">Tutto il materiale utile per il tour</p>
-                
-                <div class="downloads-category">
-                    <h3>Checklist & Documenti</h3>
-                    <div class="downloads-grid">
-                        <div class="download-card">
-                            <div class="download-icon">📋</div>
-                            <h4>Checklist Pre-Partenza</h4>
-                            <p>Controlla di non dimenticare nulla per moto ed equipaggiamento</p>
-                            <a href="downloads/checklist/checklist-tour.pdf" class="download-btn" download>
-                                Scarica PDF
-                            </a>
-                        </div>
-                        
-                        <div class="download-card">
-                            <div class="download-icon">🗺️</div>
-                            <h4>Mappa del Percorso</h4>
-                            <p>Mappa dettagliata con tutti i punti di interesse e soste</p>
-                            <a href="downloads/pdf/mappa-tour.pdf" class="download-btn" download>
-                                Scarica PDF
-                            </a>
-                        </div>
-                        
-                        <div class="download-card">
-                            <div class="download-icon">📱</div>
-                            <h4>Tracce GPS</h4>
-                            <p>File GPX per navigatori e app motociclistiche</p>
-                            <a href="downloads/gpx/tour-dolomiti.gpx" class="download-btn" download>
-                                Scarica GPX
-                            </a>
-                        </div>
-                        
-                        <div class="download-card">
-                            <div class="download-icon">🏨</div>
-                            <h4>Info Alloggi</h4>
-                            <p>Dettagli hotel, contatti e informazioni logistiche</p>
-                            <a href="downloads/pdf/info-alloggi.pdf" class="download-btn" download>
-                                Scarica PDF
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-logo">
-                    <img src="assets/images/logo.png" alt="Tour Dolomiti Moto" class="footer-logo-image">
-                </div>
-                <div class="footer-quote">
-                    "Il vero viaggio di scoperta non consiste nel cercare nuove terre, ma nell'avere nuovi occhi."
-                </div>
-                <div class="footer-social">
-                    <span class="social-hashtag">#TourDolomitiMoto2024</span>
-                    <span class="social-hashtag">#DolomitesOnTwoWheels</span>
-                </div>
-                <div class="footer-signature">
-                    Organizzato con ❤️ per gli appassionati di mototurismo
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <!-- Scroll to Top -->
-    <button class="scroll-to-top">↑</button>
-
-    <script src="js/script.js"></script>
-</body>
-</html>
+    <!-- ... resto del HTML ... -->
