@@ -1,27 +1,27 @@
-# Tour Dolomiti Moto 🏍️⛰️
+# 🏍️ Tour Dolomiti Moto
 
-Un sito web dedicato agli appassionati di mototurismo nelle Dolomiti.
+Un sito web dedicato al tour motociclistico attraverso le Dolomiti - Patrimonio UNESCO.
 
-## Descrizione
-Sito informativo per organizzare tour motociclistici attraverso le più belle strade delle Dolomiti, con percorsi, punti di interesse e consigli per motociclisti.
+## 🗺️ Il Progetto
+Sito informativo completo per il tour motociclistico Dolomiti 2024, con:
+- Mappe interattive dei percorsi
+- Informazioni dettagliate sulle tappe
+- Download di materiale utile (GPX, PDF, checklist)
+- Galleria partecipanti
+- Informazioni tecniche e consigli
 
-## Caratteristiche
-- 🗺️ Mappe e percorsi suggestivi
-- 📍 Punti di interesse
-- 🏨 Consigli per pernottamento
-- ⛽ Stazioni di servizio
-- 🛠️ Officine meccaniche
+## 🚀 Funzionalità
+- **Design responsive** per mobile e desktop
+- **Navigazione intuitiva** tra le sezioni
+- **Mappe integrate** con percorsi andata/ritorno
+- **Download organizzati** per file GPX, PDF e checklist
+- **Interfaccia moderna** con animazioni fluide
 
-## Tecnologie
-- HTML5
-- CSS3
-- JavaScript
-
-## Come contribuire
-Il progetto è aperto a contributi! Sentiti libero di:
-- Suggerire nuovi percorsi
-- Segnalare punti di interesse
-- Migliorare il codice
-
-## Licenza
-MIT License
+## 📁 Struttura
+Tour-Dolomiti-Moto/
+├── assets/ # Immagini e media
+├── css/ # Stili e design
+├── downloads/ # File scaricabili
+├── js/ # Funzionalità interattive
+├── index.html # Pagina principale
+└── README.md # Documentazione
