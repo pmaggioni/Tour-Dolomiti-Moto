@@ -22,7 +22,15 @@ body {
     text-align: center;
     color: white;
     padding: 80px 0;
+    /* Prima un colore solido per vedere se lo stile viene applicato */
+    background: #1a2a6c;
+    
+    /* Poi l'immagine con percorso corretto */
     background: url('../assets/images/header-bg.jpg') center/cover;
+    
+    /* Forza dimensioni per test */
+    min-height: 500px;
+    border: 2px solid red; /* Per vedere i bordi */
     position: relative;
     border-radius: 0 0 20px 20px;
 }
