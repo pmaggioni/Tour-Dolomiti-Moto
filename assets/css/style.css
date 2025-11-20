@@ -110,6 +110,51 @@ body {
     60% {transform: translateY(-5px);}
 }
 
+/* Header per i giorni speciali */
+.king-header {
+    background: linear-gradient(135deg, #8b0000, #450000) !important;
+}
+
+.finale-header {
+    background: linear-gradient(135deg, #1e3c72, #2a5298) !important;
+}
+
+.return-header {
+    background: linear-gradient(135deg, #4ecdc4, #44a08d) !important;
+}
+
+/* Highlight boxes speciali */
+.cross-border {
+    background: linear-gradient(135deg, #1e3c72, #2a5298, #8b0000) !important;
+    border: 2px solid gold;
+}
+
+.farewell {
+    background: linear-gradient(135deg, #667eea, #764ba2) !important;
+}
+
+.heroes-return {
+    background: linear-gradient(135deg, #4ecdc4, #44a08d, #1e3c72) !important;
+}
+
+/* Stats finali inline */
+.final-stats-inline {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    margin: 30px 0;
+}
+
+.final-stat-item {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 215, 0, 0.3);
+}
+
+
+
 /* Quote Epica */
 .epic-quote {
     background: linear-gradient(135deg, #8b0000, #450000);
